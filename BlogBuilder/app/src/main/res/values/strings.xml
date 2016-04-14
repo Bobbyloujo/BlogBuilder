@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Blog Builder</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_blog_post">Blog Post</string>
+    <string name="title_activity_edit_text">Edit Text</string>
+    <string name="title_activity_edit_image">Edit Image</string>
+    <string name="title_activity_edit_video">Edit Video</string>
+    <string name="title_activity_edit_post">Edit Post</string>
+    <string name="add_text_label">Text</string>
+    <string name="add_image_label">Image</string>
+    <string name="add_video_label">Video</string>
+    <string name="image_src_location">Image Location</string>
+    <string name="video_src_location">Video Location</string>
+    <string name="image_local">Internal SD Card</string>
+    <string name="image_web">Internet URL</string>
+    <string name="image_src">Image URL</string>
+    <string name="video_src">Video Source URL</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="text">Text</string>
+    <string name="image">Image</string>
+    <string name="video">Video</string>
+    <string name="browse">Browse</string>
+    <string name="takepicture">Take Picture</string>
+    <string name="defBlogTitle">My Blog</string>
+    <string name="postTitle">Post Title</string>
+    <string name="savePost">Save Post</string>
+    <string name="settings">Settings</string>
+</resources>

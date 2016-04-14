@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="5sp"
+              android:id="@+id/elementModule">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:text="Element Type"
+        android:id="@+id/typeTextView"/>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center">
+
+        <Button android:id="@+id/upButton"
+                android:text="Move Up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button android:id="@+id/downButton"
+                android:text="Move Down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button android:id="@+id/editButton"
+                android:text="Edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button android:id="@+id/removeButton"
+                android:text="Remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/elementWebView"/>
+</LinearLayout>
